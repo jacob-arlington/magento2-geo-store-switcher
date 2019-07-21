@@ -38,7 +38,7 @@ https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz
 
 extract GeoLite2-Country.mmdb and copy to
 
-[Magento Root]//var/tobai-geoip/GeoLite2-Country.mmdb
+[Magento Root]/var/tobai-geoip/GeoLite2-Country.mmdb
 
 
 <h2>Release notes:</h2>
