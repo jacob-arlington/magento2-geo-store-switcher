@@ -33,7 +33,7 @@ Now you should see at Stores > Configuration new ToBai tab. When you click at th
 
 Since the Store Switcher extension depends on <a href="https://github.com/ytorbyk/magento2-geo-ip2">ToBai_GeoIP2</a> it should be configured previously.
 
-and make sure you download vountry database from this URL
+and make sure you download country database from this URL
 https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz
 
 extract GeoLite2-Country.mmdb and copy to
