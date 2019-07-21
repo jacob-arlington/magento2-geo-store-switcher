@@ -39,4 +39,10 @@ class ScopeConfig
     {
         return $this->appScopeConfig->getValue($path, ScopeInterface::SCOPE_WEBSITE);
     }
+
+   public function getDefaultValue($path)
+    {
+        return $this->appScopeConfig->getValue($path, 'default');
+    }
+
 }

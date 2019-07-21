@@ -13,7 +13,6 @@
             <label>Geo Store Switcher</label>
             <tab>tobai</tab>
             <frontend_model>Tobai\GeoStoreSwitcher\Block\Adminhtml\System\Config\Form</frontend_model>
-
             <resource>Tobai_GeoStoreSwitcher::config_geo_store_switcher</resource>
 
             <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">

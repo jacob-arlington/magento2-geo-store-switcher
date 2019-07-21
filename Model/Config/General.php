@@ -123,7 +123,7 @@ class General
      */
     public function getCountryStore($countryCode)
     {
-        return $this->scopeConfig->getWebsiteValue("tobai_geo_store_switcher/{$countryCode}/store");
+        return $this->scopeConfig->getDefaultValue("tobai_geo_store_switcher/{$countryCode}/store");
     }
 
     /**

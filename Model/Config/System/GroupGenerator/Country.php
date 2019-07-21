@@ -59,7 +59,9 @@ class Country extends GroupGeneratorAbstract implements GroupGeneratorInterface
                         'showInStore' => '0',
                         'sortOrder' => '1',
                         'source_model' => \Tobai\GeoStoreSwitcher\Model\Config\Source\Store::class,
+                        'backend_model' => \Tobai\GeoStoreSwitcher\Model\Config\Backend\Country::class,
                         'type' => 'select',
+                        'default' =>3, 
                         'depends' => [
                             'fields' => [
                                 'active' => [
@@ -79,7 +81,8 @@ class Country extends GroupGeneratorAbstract implements GroupGeneratorInterface
             ];
             $countriesGroups[$countryCode] = $this->createGroup($groupData);
         }
-        return $countriesGroups;
+//var_dump($countriesGroups);exit;
+       return $countriesGroups;
     }
 
     /**
